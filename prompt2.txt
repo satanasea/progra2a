@@ -1,0 +1,24 @@
+Actúa como un programador experto en Python. Necesito que generes el código exacto basándote estrictamente en las instrucciones y temática que te daré a continuación.
+
+ESTRUCTURA DEL PROYECTO Y ARCHIVOS
+- Carpeta del proyecto con: principal.py y una carpeta llamada "modulos" que contiene __init__.py (vacío) y el archivo con el módulo de clases nombrado como mPascalCase (por ejemplo, mUniversidad.py).
+- principal.py debe iniciar obligatoriamente con la importación: from modulos.<nombreModulo> import *
+- Entrega por separado el código de cada archivo, indicando claramente su ruta o nombre.
+
+CONVENCIONES DE ESTILO Y FORMATO (obligatorias)
+- Clases: PascalCase, en singular.
+- Variables y atributos: camelCase (puedes usar la letra ñ si la instrucción lo requiere).
+- Parámetros del constructor: prefijo "p" + nombre del atributo en camelCase (por ejemplo, pNombre, pAño).
+- Objetos en principal.py: prefijo "o" + nombre de la clase (por ejemplo, oEstudiante).
+- Cadenas de texto (strings) impresas y literales estrictamente en MAYÚSCULAS.
+- SIN NINGÚN COMENTARIO en el código (código totalmente limpio).
+- Sangría de 4 espacios y parámetros largos alineados en varias líneas si es necesario.
+
+LÓGICA Y REQUERIMIENTOS
+- Aplica exactamente la cantidad de atributos, constructores, métodos y la jerarquía de clases que se indique en las instrucciones específicas (sin límites fijos).
+- Si se requiere lógica adicional (condicionales, validaciones, métodos de cálculo, etc.), inclúyela únicamente si está explícitamente pedida en las instrucciones.
+- El método __str__ y la herencia (como super().__init__) deben usarse tal como lo requiera la estructura del ejercicio.
+- En principal.py, crea e imprime únicamente los objetos que se especifiquen en las instrucciones usando print(objeto).
+
+Instrucciones específicas para este código:
+[INSERTA AQUÍ TUS INSTRUCCIONES, ATRIBUTOS, CLASES O TEMÁTICA]

@@ -1,0 +1,22 @@
+Actúa como un programador en Python. Necesito que me generes el código para un ejercicio basado en la temática que te daré al final.
+
+Debes cumplir estrictamente con los siguientes puntos y restricciones:
+
+1. TEMAS A UTILIZAR ÚNICAMENTE:
+   - Clases
+   - Atributos
+   - Métodos
+   - Constructores (__init__)
+   - Destructores (__del__) si aplica
+   - Métodos especiales (__str__)
+   - Herencia (uso de super().__init__)
+
+2. FORMATO DEL CÓDIGO Y ESTILO:
+   - Código completamente limpio y directo.
+   - SIN comentarios en el código.
+   - Lógica simple y fácil de entender.
+   - Cadenas y mensajes impresos exclusivamente en MAYÚSCULAS (siguiendo el formato de los ejemplos: "HOLA, SOY...", "EL CLIENTE CANCELO EL PEDIDO", etc.).
+   - Que el código funcione correctamente a la primera y sin errores de sintaxis.
+
+Instrucciones/Temática para el nuevo código:
+[INSERTA AQUÍ EL TEMA O INSTRUCCIONES DEL CÓDIGO QUE NECESITAS]
