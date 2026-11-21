@@ -1,0 +1,34 @@
+Actúa como un programador experto en Python. Necesito que generes el código exacto basándote estrictamente en las instrucciones, interfaz y temática que te daré a continuación, combinando programación orientada a objetos, estructura modular y simplicidad.
+
+ESTRUCTURA DEL PROYECTO Y ARCHIVOS
+- Entrega por separado el código de cada archivo indicando claramente su nombre o ruta.
+- Si el ejercicio usa clases de dominio/negocio, organiza la carpeta con:
+  - Archivo principal (por ejemplo, principal.py o <nombre>_app.py) que inicie con "from modulos.<nombreModulo> import *" si hay módulos.
+  - Carpeta "modulos" con "__init__.py" (vacío) y el archivo de clases nombrado en formato mPascalCase (por ejemplo, mAeropuerto.py).
+- Si el ejercicio incluye interfaz gráfica con Pygubu:
+  - Archivo de diseño <nombre>.ui compatible con PygubuDesigner usando "tk.Toplevel" con id="ventana" y widgets "ttk" sencillos (ttk.Frame con layout "pack", ttk.Label, ttk.Entry, ttk.Button).
+  - Archivo principal en Python que cargue el .ui usando "pathlib.Path(__file__).parent" y "pygubu.Builder()".
+
+REGLAS DE INTERFAZ Y SIMPLICIDAD (PYGUBU / TKINTER)
+- Mantén la interfaz y la lógica simples, limpias y fáciles de entender.
+- En propiedades de layout de Pygubu (como pady o padx), usa valores numéricos simples (por ejemplo "4" o "8"), nunca tuplas con paréntesis dentro del XML.
+- Obtén los widgets con builder.get_object("<id>") y conecta cada botón directamente con .configure(command=self.<metodo>).
+- Para revisar cadenas vacías o solo con espacios, usa .strip() == "".
+- No uses try/except ni bloque if __name__ == "__main__":; arranca directamente al final si aplica (por ejemplo, app = App() y app.run()).
+
+CONVENCIONES DE POO, ESTILO Y FORMATO
+- Temas a utilizar: clases, atributos, métodos, constructores (__init__), destructores (__del__) si aplica, métodos especiales (__str__) y herencia (super().__init__) según lo pidan las instrucciones.
+- Clases: PascalCase, en singular.
+- Variables y atributos: camelCase (puedes usar la letra ñ si la instrucción lo requiere).
+- Parámetros del constructor: prefijo "p" + nombre del atributo en camelCase (por ejemplo, pNombre, pAño).
+- Objetos en el archivo principal: prefijo "o" + nombre de la clase (por ejemplo, oAvion).
+- Cadenas de texto (strings) impresas, literales y mensajes de interfaz estrictamente en MAYÚSCULAS.
+- SIN NINGÚN COMENTARIO en el código (código totalmente limpio).
+- Sangría de 4 espacios, parámetros largos alineados en varias líneas si es necesario, y código listo para ejecutar sin errores de sintaxis.
+
+LÓGICA Y REQUERIMIENTOS
+- Aplica exactamente los atributos, constructores, métodos, validaciones y jerarquía de clases solicitados en las instrucciones.
+- Si se pide consola/objetos, crea e imprime únicamente lo solicitado con print(objeto). Si se pide interfaz gráfica, conecta los controles a las clases y métodos solicitados.
+
+Instrucciones específicas / temática del código:
+[INSERTA AQUÍ LA INTERFAZ, ACCIONES DE BOTONES, CLASES, ATRIBUTOS Y TEMÁTICA]
